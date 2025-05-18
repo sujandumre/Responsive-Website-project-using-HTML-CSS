@@ -1,0 +1,235 @@
+/* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS variables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* Navigation Bar : logo and images*/
+.logo {
+    margin: 25px 25px;
+    height: 30px;
+}
+
+.logo img {
+    height: 500px;
+    width: auto;
+}
+
+/* Resize and align the logo */
+/* #navbar{
+    position: relative;
+} */
+#navbar .logo img {
+    height: 40px;
+    /* Adjust height as needed */
+    width: auto;
+    display: block;
+    margin: auto 10px;
+}
+#navbar ul{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1
+}
+#navbar ul li{
+    /* color:white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:white;
+   display: block;
+   padding: 3px 24px;
+   text-decoration: none ;
+   border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+}
+#home:before{
+    content:"";
+    background-image: url('../bg.jpg') ;
+    background-size: cover;
+    /* no-repeat center center/cover; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89
+}
+h1 {
+    display: block;
+    font-size: 26px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+#home h1{
+    text-align: center;
+    color:white;
+}
+#home p{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* services section */
+#services{
+    margin: 93px;
+    display: flex;
+}
+.section-title {
+  font-size: 1rem; /* Adjust this value as needed */
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 14px;
+    height: 217px;
+    margin: 2px 2px;
+    border-radius: 20px;
+    background-color: rgb(234, 238, 226);
+    margin-bottom: 20px; 
+}
+#services .box img{
+    height: 107px;
+    margin: auto;
+    display: block;
+}
+/* clients */
+#client-section{
+    
+    position:relative;
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background: url('../bg.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 10px;
+}
+#clients img{
+    height: 150px;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+    /* text-align: center; */
+}
+#contact::before{
+    content:"";
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('/contact1.jpg');
+    /* no repeat center center/cover; */
+}
+#contact-box form{
+    width:80%;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* utility classes */
+.h-primary{
+    font-size: 2rem;
+    padding: 15px;
+    margin: 3px;
+}
+.h-secondary{
+    font-size: 2rem;
+    padding: 20px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: yellow;
+    color: white;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
