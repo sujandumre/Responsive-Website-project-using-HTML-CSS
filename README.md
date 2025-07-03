@@ -9,10 +9,10 @@ Welcome to MyOnlineMeals, a responsive and modern food delivery website built us
 
 myonlinemeals/
 │
-├── index.html             # Main landing page
+├── index.html             
 ├── css/
-│   ├── style.css          # Main stylesheet
-│   └── phone.css          # Responsive styles for smaller screens
+│   ├── style.css          
+│   └── phone.css         
 ├── images/
     ├── logo1.png
     ├── 2.png
