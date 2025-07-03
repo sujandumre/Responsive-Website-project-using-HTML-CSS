@@ -14,12 +14,12 @@ myonlinemeals/
 │   ├── style.css          # Main stylesheet
 │   └── phone.css          # Responsive styles for smaller screens
 ├── images/
-│   ├── logo1.png
-│   ├── 2.png
-│   ├── applelogo.png
-│   ├── micro.png
-│   ├── skype.png
-│   └── hplogo1.png
+    ├── logo1.png
+    ├── 2.png
+    ├── applelogo.png
+    ├── micro.png
+    ├── skype.png
+    └── hplogo1.png
 
 
 ✨ Features
