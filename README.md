@@ -2,7 +2,7 @@
 Website using html and css
 
 🍽️ MyOnlineMeals - Food Delivery Website
-Welcome to MyOnlineMeals, a responsive and modern food delivery website built using HTML and CSS. This project demonstrates a static, front-end interface for an online food ordering platform, ideal for restaurants or food delivery services looking for a sleek web presence.
+Welcome to MyOnlineMeals, a responsive and modern food delivery website built using HTML and CSS. This project demonstrates a static, front-end interface for an online food ordering platform, ideal for restaurants or food delivery services.
 
 
 📁 Project Structure
@@ -71,7 +71,5 @@ Add animations or transition effects.
 This project is open source and available under the MIT License.
 
 🙌 Acknowledgements
-Fonts by Google Fonts
-
 Icons and logos are used for demonstration purposes only.
 
